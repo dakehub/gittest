@@ -1,22 +1,36 @@
 @import "_header";
 
-body {
-	font-size: 20px;
-	color: aqua;
-	div {
-		font-size: 10px;
+.main {
+
+	&__content {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 20px 0px 0px 0px;
 	}
-}
-.block {
+
+	&__column {
+		display: flex;
+	}
+
 	&__item {
+
+	}
+
+	&__title {
+		margin: 0px 0px 10px 0px;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: 700;
+		&:hover{
+			color: blueviolet;
+		}
+	}
+
+	&__text {
+		font-size: 20px;
+		color: gold;
 	}
 }
-
-.block {
-}
-.block__item {
+.title {
 }
 
-.red {
-	color: red;
-}
