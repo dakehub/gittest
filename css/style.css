@@ -28,4 +28,5 @@ header {
 .main__text {
   font-size: 20px;
   color: gold;
+  text-transform: capitalize;
 }
